@@ -14,22 +14,36 @@
   </head>
   <body>
     <div class="main">
+      <!-- header start -->
       <header class="header">
         <div class="header-inner">
           <div class="logo">
-            <a href="" class="main-link"
-              ><span><img src="./logo-league.png" /></span>LOL상점</a
+            <a href="/" class="main-link"
+              ><span>상점</span></a
             >
           </div>
           <div class="search">
             <form class="search-form">
               <div class="search-bar">
+                <span role="img" class="search-icon"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 10.5L9.2 7.7c.5-.8.8-1.7.8-2.7 0-2.8-2.2-5-5-5S0 2.2 0 5s2.2 5 5 5c1 0 1.9-.3 2.7-.8l2.8 2.8 1.5-1.5zM2 5c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3z" fill="#F0E6D2"></path></svg></span>
                 <input type="text" class="search-input" placeholder="통합 검색" value />
               </div>
-              <div class="searchButton"></div>
+              <button type="submit" class="search-button">검색</button>
             </form>
           </div>
+          <ul class="menus">
+            <li><a href="/yourshop"><span role="img" class="icon " aria-label="나만의 상점" title="나만의 상점"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 8.905V25.57L22.694 27h-9.5l-1.307-1.429v-1.428h5.463l4.037-4.167V7.596h1.307L24 8.904zm-5.462-5.476v15.238l-2.732 2.738H7.731L5 18.667V3.429L6.306 2h10.806l1.426 1.429zm-1.663.476h-2.494v10.357l-2.494 2.143-2.493-2.143V3.905H6.662V15.57L11.77 19.5l5.106-3.929V3.905z" fill="#CAAB67"></path></svg></span></a></li>
+            <li><a href="/loot"><span role="img" class="icon " aria-label="제작소" title="제작소"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.472 13.91l-2.468-2.828.353-1.414 7.756-5.657 4.54.398 1.259 1.794-5.066 3.413 7.656 11.146-1.728 1.22-7.682-11.184-4.62 3.113z" fill="#CAAB67"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6.416 18.846l4.03-5.615 6.642 1.872 2.273 6.52-4.03 5.615-6.64-1.872-2.275-6.52zm6.3-2.733l1.729 5.943-5.186 2.377 2.305-3.566 1.152-4.754z" fill="#CAAB67"></path><path d="M7.704 10.32L6.667 2l3.63 6.24.518 3.12-3.111-1.04zM6.667 11.88L2 10.32l4.148 3.64 1.556-1.04-1.037-1.04z" fill="#CAAB67"></path></svg></span></a></li>
+            <li><a href="/payments"><span role="img" class="icon " aria-label="RP충전" title="RP충전"><svg width="30" height="30" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.714 5.096L11.036 3 8.357 5.096v7.525l2.679 1.882 2.678-1.882V5.096zM18 9.934l1.071-.806-3.214-2.957v7.525l-3.75 2.688v2.687l6.964-4.676L18 13.16V9.934zM6.214 6.17L3 9.128l1.071.806v3.225L3 14.395l6.964 4.676v-2.687l-3.75-2.688V6.171z" fill="#C79A3B"></path></svg></span></a></li>
+            <li><a href="/mypage"><div data-qa="profileIcon" class="profile-icon-border"><img class="profile-icon-image" src="https://cdn-store.leagueoflegends.co.kr/images/v2/profileicons/4491.jpg" title="내 페이지" alt="내 페이지"></div></a></li>
+          </ul>
         </div>
+        <div class="hamburger-menu">
+          <span role="img" class="icon ">
+            <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v2.6h15.111V0H0zm0 7.8h15.111V5.2H0v2.6zM0 13h15.111v-2.6H0V13z" fill="#CAAB67"></path></svg>
+          </span>
+        </div>
+        <!-- header end -->
         <div class="mill"></div>
         <div class="rp"></div>
         <div class="profile"></div>
